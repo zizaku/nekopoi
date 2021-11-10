@@ -8,7 +8,7 @@ jobs:
     runs-on: Windows-latest 
     steps: 
     - name: DOMNLOADING 
-      run: Invoke-WebRequest https://bin.equainox.io/c/4VmDzA7iaHb/ngrok-stable-windows-and64.zip -Outfile ngrok.zip 
+      run: Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-and64.zip -Outfile ngrok.zip 
     - name: EXTRACT 
       run: Expand-Archive ngrok.zip 
     - name: AUTENTIFIKASI 
